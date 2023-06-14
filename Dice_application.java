@@ -24,6 +24,9 @@ class Dice_application
 
 	System.out.println("Total value: " + total_dice_num);
 
+	if(total_dice_num > 7) System.out.println("You won");
+	
+	else System.out.println("You lost");
     }
 
 }
